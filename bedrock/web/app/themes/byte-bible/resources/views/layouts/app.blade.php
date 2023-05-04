@@ -1,17 +1,20 @@
-<a class="sr-only focus:not-sr-only" href="#main">
-  {{ __('Skip to content') }}
-</a>
 
-@include('sections.header')
+<div class='container-fluid'>
+  <div class='row'>
+    <header class='col col-sm-4 col-md-3 col-xl-2  m-0 p-0 position-fixed'>
+      @yield('header')
+    </header>
+    <div class='col col-sm-4 col-md-3 col-xl-2 m-0 m-0'></div>
+    <div class='co col-sm-8 col-md-9 col-xl-10'>
+    <main class='container-fluid'>
+      <div class='row'>
+          @yield('content')
+      </div>
+    </main>
+  </div>
+  </div>
+ </div>
 
-  <main id="main" class="main">
-    @yield('content')
-  </main>
 
-  @hasSection('sidebar')
-    <aside class="sidebar">
-      @yield('sidebar')
-    </aside>
-  @endif
 
-@include('sections.footer')
+

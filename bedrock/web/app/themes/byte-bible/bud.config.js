@@ -46,7 +46,7 @@ export default async (app) => {
      * URI of the `public` directory
      * @see {@link https://bud.js.org/docs/bud.setPublicPath/}
      */
-    .setPublicPath('/app/themes/sage/public/')
+    .setPublicPath('/app/themes/byte-bible/public/')
 
     /**
      * Generate WordPress `theme.json`
@@ -81,6 +81,6 @@ export default async (app) => {
         customFontSize: false,
       },
     })
-  
+
     .enable();
 };

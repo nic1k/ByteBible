@@ -10,7 +10,146 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/nunomaduro/termwind" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/oscarotero/env" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/log1x/acf-composer" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/stoutlogic/acf-builder" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/roots/wp-password-bcrypt" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/roots/wp-config" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/roots/bedrock-autoloader" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/roots/support" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/roots/wordpress-core-installer" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/roots/acorn" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/fruitcake/php-cors" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/guzzlehttp/uri-template" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/composer" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/routing" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/log" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/conditionable" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/bedrock/web/app/themes/byte-bible/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/bedrock/web/app/themes/byte-bible/vendor/composer" />
+      <path value="$PROJECT_DIR$/../../LocalSites/wordpress-bedrock/bedrock/web/wp" />
+    </include_path>
+  </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="a1d414d2-900d-480b-94f5-2df9e6ed24ba" name="bytebible-nginx:latest" home="docker://DATA" false="false" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="php" HELPERS_PATH="/opt/.phpstorm_helpers" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" DOCKER_ACCOUNT_NAME="Docker" DOCKER_IMAGE_NAME="bytebible-php:latest" DOCKER_REMOTE_PROJECT_PATH="/opt/project" />
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpInterpretersPhpInfoCache">
+    <phpInfoCache>
+      <interpreter name="bytebible-nginx:latest">
+        <phpinfo binary_type="PHP" php_cli="/usr/local/bin/php" path_separator=":" version="8.0.17">
+          <additional_php_ini>/usr/local/etc/php/conf.d/docker-php-ext-mysqli.ini, /usr/local/etc/php/conf.d/docker-php-ext-pdo_mysql.ini, /usr/local/etc/php/conf.d/docker-php-ext-sodium.ini</additional_php_ini>
+          <configuration_file />
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/usr/local/lib/php" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="openssl" />
+            <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="sodium" />
+            <extension name="sqlite3" />
+            <extension name="standard" />
+            <extension name="tokenizer" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+    </phpInfoCache>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>
