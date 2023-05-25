@@ -22,10 +22,7 @@ class MainMenu extends Component
         ];
         $this->cheetsheet = get_posts($args);
 
-        $this->main_categories = [
-            'cheetsheet',
-            'keymap'
-        ];
+        $this->main_categories = get_field('main_categories','options');
 
     }
 

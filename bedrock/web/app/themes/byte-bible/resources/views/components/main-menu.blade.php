@@ -9,7 +9,7 @@
       <li class="nav-item">
         <a href="#" class="nav-link" aria-current="page">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-          {{ $item }}
+          {{ $item['content_type'] }}
         </a>
       </li>
     @endforeach
