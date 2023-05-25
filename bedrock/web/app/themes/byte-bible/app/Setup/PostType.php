@@ -4,6 +4,7 @@ namespace app\Setup;
 
 abstract class PostType
 {
+
     public static function createPostType(string $name, $acf){
 
     }
@@ -12,5 +13,6 @@ abstract class PostType
     {
 
     }
+
 
 }
