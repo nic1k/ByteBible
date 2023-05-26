@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wp core install --url=localhost --title="ByteBible" --admin_name=nic1k --admin_password=nic1k --admin_email=admin@test.local --allow-root
+#wp core install --url=localhost --title="ByteBible" --admin_name=nic1k --admin_password=nic1k --admin_email=admin@test.local --allow-root
 
 # install plugin ACF Pro
 acf_zip_file="$(wp --allow-root plugin path)/advanced-custom-fields-pro.zip"

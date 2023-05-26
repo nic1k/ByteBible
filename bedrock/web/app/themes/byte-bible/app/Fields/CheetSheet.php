@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Fields;
-
 use Log1x\AcfComposer\Field;
 use StoutLogic\AcfBuilder\FieldNameCollisionException;
 use StoutLogic\AcfBuilder\FieldsBuilder;
