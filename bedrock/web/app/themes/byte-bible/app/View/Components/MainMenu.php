@@ -8,6 +8,7 @@ class MainMenu extends Component
 {
 
     public $cheetsheet=[];
+    public $keymap=[];
     public $main_categories = [];
 
     /**
@@ -17,15 +18,17 @@ class MainMenu extends Component
      */
     public function __construct()
     {
-        $args = [
+        $args_cheetsheet = [
           'post_type' => 'cheetsheet'
         ];
-        $this->cheetsheet = get_posts($args);
+        $this->cheetsheet = get_posts($args_cheetsheet);
 
+        $args_keymap = [
+          'post_type' => 'keymap'
+        ];
+        $this->keymap = get_posts($args_keymap);
 
         $this->main_categories = get_field('main_categories','options') ? get_field('main_categories','options') : [];
-
-
     }
 
     /**

@@ -18,7 +18,18 @@
   <ul class="nav nav-pills flex-column ">
     @foreach ($cheetsheet as $item)
       <li class="nav-item">
-        <a href="#" class="nav-link" aria-current="page">
+        <a href="{{ get_permalink($item->ID) }}" class="nav-link" aria-current="page">
+          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#{{  }}"></use></svg>
+          {{ $item->post_title }}
+        </a>
+      </li>
+    @endforeach
+
+  </ul>
+  <ul class="nav nav-pills flex-column ">
+    @foreach ($keymap as $item)
+      <li class="nav-item">
+        <a href="{{ get_permalink($item->ID) }}" class="nav-link" aria-current="page">
           <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
           {{ $item->post_title }}
         </a>

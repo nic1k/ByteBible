@@ -1,9 +1,5 @@
 @extends('layouts.app')
 
-@section('header')
-  <x-main-menu></x-main-menu>
-@endsection
-
 @section('content')
 
   <div class='col col-sm-8 col-md-9 col-xl-10'>
@@ -46,7 +42,7 @@
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <a href="#" class="card-link">Card link</a>
             <a href="#" class="card-link">Another link</a>
-            <div class="bd-clipboard">      <button type="button" class="btn-clipboard">        <svg class="bi" role="img" aria-label="Copy"><use xlink:href="#clipboard"></use></svg>      </button>   </div>
+            <div class="bd-clipboard">      <button type="button" class="btn-clipboard">  <svg class="bi" role="img" aria-label="Copy"><use xlink:href="#clipboard"></use></svg>      </button>   </div>
           </div>
         </div><div class="card">
           <div class="card-body">
