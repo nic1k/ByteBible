@@ -2,6 +2,9 @@
 
 namespace App\Options;
 
+use app\Fields\Partials\MainCategoriesOption;
+use app\Fields\Partials\SvgList;
+use app\Fields\Partials\SvgOption;
 use Log1x\AcfComposer\Options as Field;
 use StoutLogic\AcfBuilder\FieldsBuilder;
 
@@ -31,10 +34,8 @@ class ThemeOptions extends Field
         $themeOptions = new FieldsBuilder('theme_options');
 
         $themeOptions
-            ->addRepeater('main_categories')
-                ->addText('content_type')
-                ->addText('svg_icon')
-            ->endRepeater();
+            ->addFields($this->get(MainCategoriesOption::class))
+        ;
 
         return $themeOptions->build();
     }

@@ -5,7 +5,7 @@ use Log1x\AcfComposer\Field;
 use StoutLogic\AcfBuilder\FieldNameCollisionException;
 use StoutLogic\AcfBuilder\FieldsBuilder;
 
-class CheetSheet extends Field
+class CheetSheetField extends Field
 {
     /**
      * The field group.
@@ -17,7 +17,7 @@ class CheetSheet extends Field
     {
 
         $fieldChaptersArg = [
-            'label' => 'Chapters',
+            'label' => 'Panel',
             'layout' => 'block'
         ];
 
@@ -30,12 +30,17 @@ class CheetSheet extends Field
         $cheetSheet
             ->setLocation('post_type', '==', 'cheetsheet');
 
+
+
+
         $cheetSheet
-            ->addRepeater('chapters', $fieldChaptersArg)
+            ->addImage('svg_icon')
+            ->addRepeater('panel', $fieldChaptersArg)
                 ->addText('heading')
-                ->addRepeater('cheets', $fieldCheetsArg)
+                ->addRepeater('section', $fieldCheetsArg)
                     ->addText('description')
                     ->addTextarea('code')
+                    ->addGallery('image_list')
                 ->endRepeater()
             ->endRepeater();
 

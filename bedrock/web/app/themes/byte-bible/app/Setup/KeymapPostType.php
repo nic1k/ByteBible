@@ -1,6 +1,6 @@
 <?php
 
-namespace app\Setup;
+namespace App\Setup;
 
 class KeymapPostType extends CustomPostType{
 

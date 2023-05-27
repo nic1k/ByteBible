@@ -6,9 +6,11 @@
 
 namespace App;
 
-use App\Fields\Keymap;
+use app\Fields\KeymapField;
+use app\Main\Cheetsheet;
 use App\Setup\CheetSheetPostType;
 use App\Setup\KeymapPostType;
+use DOMDocument;
 use function Roots\bundle;
 
 
@@ -141,6 +143,9 @@ add_action('widgets_init', function () {
 
 
 add_action('wp_body_open', function (){
+
+
+
     echo '
       <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
     <symbol id="bootstrap" viewBox="0 0 118 94">

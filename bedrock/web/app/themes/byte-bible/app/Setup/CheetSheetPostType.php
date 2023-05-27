@@ -2,11 +2,14 @@
 
 namespace App\Setup;
 
+
 class CheetSheetPostType extends CustomPostType{
 
     public function __construct()
     {
         parent::__construct();
+
+
 
         $this->post_type = 'cheetsheet';
 
