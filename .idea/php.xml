@@ -87,6 +87,8 @@
       <path value="$PROJECT_DIR$/bedrock/web/app/themes/byte-bible/vendor/squizlabs/php_codesniffer" />
       <path value="$PROJECT_DIR$/bedrock/web/app/themes/byte-bible/vendor/composer" />
       <path value="$PROJECT_DIR$/../../LocalSites/wordpress-bedrock/bedrock/web/wp" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/log1x/sage-svg" />
+      <path value="$PROJECT_DIR$/bedrock/vendor/league/flysystem-local" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

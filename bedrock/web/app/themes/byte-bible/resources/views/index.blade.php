@@ -2,7 +2,7 @@
 
 @section('content')
 
-  <h2>h2. Bootstrap heading</h2>
+  <h2>h2. ssBootstrap heading</h2>
   <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
     <div id="item-1">
       <div class="card">

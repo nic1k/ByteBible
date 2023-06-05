@@ -1,12 +1,10 @@
 {{--
-  Template Name: Homepage
+  Template Name: Cheetsheet list
+  Template Post Type: cheetsheet
 --}}
 
 @extends('layouts.app')
 
 @section('content')
-  @while(have_posts()) @php(the_post())
-    @include('partials.page-header')
-    @include('partials.content-page')
-  @endwhile
+  cheetsheeet post type list
 @endsection
